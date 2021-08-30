@@ -1,0 +1,112 @@
+/* Esto es un comentario en CSS
+SELECTOR {
+    PROPIEDAD : 1233131
+    PROPIEDAD: "23e23px"
+}
+bgcolor="lightblue"
+*/
+
+* {
+    font-size: x-large;
+    /*font-size: 2rem;*/
+    /*font-family: fantasy; /* En mi caso tengo esta font y la uso*/
+}
+
+/* Toda la pagina siempre debe tener fondo negro */
+body {
+    background-color:black;
+}
+
+footer {
+    background-color:mediumorchid !important;
+    color: white;
+    font-family: 'Klee One', cursive;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+    border-color: chartreuse;
+    border-style:dotted;
+    border-width: 10px;
+    /*background-color: black !important; Importante recordar que esto 
+    puede alterar elementos no deseados*/
+}
+
+a:hover {
+    /*background-color: white; */
+    filter:alpha (opacity=50);
+    opacity: 0.50;
+    -moz-opacity: .50;
+}
+
+#iniciar {
+    color: white;
+}
+
+.whitebg {
+    background-color: white;
+    color: black;
+}
+
+body > table > tbody > tr {
+    background-color: black;
+    color: white;
+}
+
+/*body > table > tbody > tr > td:nth-child(2) > section > p {
+    background-color: black;
+    color: white;
+}*/
+
+ul, h2 {
+    color: white;
+}
+
+.fa-cloud {
+    color: red;
+}
+
+body > header > i.fas.fa-car {
+    scale: 120;
+}
+
+/***************************************************/
+/*   Estilo del componente boton - fondo blanco   */
+/***************************************************/
+
+.boton-registro {
+    /* color: black; */
+    background-color:white;
+    width: 175px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+    padding:10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font-size:11px;
+    line-height:32px;
+    text-transform: uppercase;
+    float:left;
+    font-weight: bold;
+    ;
+}
+.boton-registro:hover {
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter:alpha (opacity=50);
+    
+}
+.boton-registro a {
+    color:black;
+    text-decoration:none;
+    /*padding:5px 5px 5px 0; */
+    border-color:transparent;
+    border-style:none;
+}
